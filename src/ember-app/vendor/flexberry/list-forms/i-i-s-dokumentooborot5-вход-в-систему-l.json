@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dokumentooborot5-вход-в-систему-e",
+  "editForm": "i-i-s-dokumentooborot5-вход-в-систему-e",
+  "external": false,
+  "caption": "Вход в систему",
+  "name": "IISDokumentooborot5ВходВСистемуL",
+  "className": "ВходВСистемуL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dokumentooborot5-вход-в-систему",
+      "modelProjection": "ВходВСистемуL"
+    }
+  ]
+}

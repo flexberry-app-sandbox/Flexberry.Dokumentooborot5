@@ -1,0 +1,4 @@
+import IISDokumentooborot5ФормаДокументаEController from '../i-i-s-dokumentooborot5-форма-документа-e';
+
+var IISDokumentooborot5ФормаДокументаENewController = IISDokumentooborot5ФормаДокументаEController;
+export default IISDokumentooborot5ФормаДокументаENewController;

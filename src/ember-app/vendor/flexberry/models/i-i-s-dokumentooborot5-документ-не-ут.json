@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISDokumentooborot5ДокументНеУт",
+  "modelName": "i-i-s-dokumentooborot5-документ-не-ут",
+  "className": "ДокументНеУт",
+  "nameSpace": "IIS.Dokumentooborot5",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаСохранения",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "тЧСоздДок",
+      "relatedTo": "i-i-s-dokumentooborot5-т-ч-созд-док",
+      "inverse": "документНеУт"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДокументНеУтE",
+      "modelName": "i-i-s-dokumentooborot5-документ-не-ут",
+      "attrs": [
+        {
+          "name": "датаСохранения",
+          "caption": "Дата сохранения",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТЧСоздДокE",
+          "caption": "Т ч созд док",
+          "name": "тЧСоздДок",
+          "relatedTo": "i-i-s-dokumentooborot5-т-ч-созд-док",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ДокументНеУтL",
+      "modelName": "i-i-s-dokumentooborot5-документ-не-ут",
+      "attrs": [
+        {
+          "name": "датаСохранения",
+          "caption": "Дата сохранения",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "формаДокумента",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ТЧСоздДок.ФормаДокумента",
+      "projection": "ФормаДокументаL",
+      "detailModelName": "i-i-s-dokumentooborot5-т-ч-созд-док"
+    }
+  ],
+  "external": false,
+  "caption": "Документ не ут",
+  "name": "IISDokumentooborot5ДокументНеУтE",
+  "className": "ДокументНеУтE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dokumentooborot5-документ-не-ут",
+      "modelProjection": "ДокументНеУтE"
+    }
+  ]
+}

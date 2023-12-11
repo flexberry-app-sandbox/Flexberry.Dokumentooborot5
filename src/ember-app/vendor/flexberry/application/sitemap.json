@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Dokumentooborot5",
+  "applicationTitle": "Dokumentooborot5",
+  "items": [
+    {
+      "link": null,
+      "menuName": "dokumentooborot5",
+      "caption": "Dokumentooborot5",
+      "title": "Dokumentooborot5",
+      "children": [
+        {
+          "link": "i-i-s-dokumentooborot5-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot5-форма-документа-l",
+          "menuName": null,
+          "caption": "Форма документа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot5-вход-в-систему-l",
+          "menuName": null,
+          "caption": "Вход в систему",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot5-документ-не-ут-l",
+          "menuName": null,
+          "caption": "Документ не ут",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot5-ав-пользователи-l",
+          "menuName": null,
+          "caption": "Ав пользователи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot5-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
